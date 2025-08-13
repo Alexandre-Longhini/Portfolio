@@ -102,8 +102,8 @@ p {
     }
 
     .foto-perfil {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     border-radius: 15px;
     }
@@ -112,5 +112,13 @@ p {
     margin: 0;
     font-size: 1em;
     color: #333;
+    }
+
+    .logo {
+        font-size: 0.9em;
+    }
+
+    .barra-navegacao-itens li a {
+        font-size: 0.8em;
     }
 }
