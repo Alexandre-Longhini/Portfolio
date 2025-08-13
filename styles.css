@@ -58,4 +58,59 @@ p {
     left: 2em;
     color: #FFF;
     text-transform: uppercase;
+
+}
+
+.sobre {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    padding: 2em;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.foto-perfil {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.descricao h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #333;
+}
+
+.descricao p {
+    color: #555;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .sobre {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .descricao {
+        max-width: 100%;
+    }
+
+    .foto-perfil {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 15px;
+    }
+
+    .descricao h1 {
+    margin: 0;
+    font-size: 1em;
+    color: #333;
+    }
 }
