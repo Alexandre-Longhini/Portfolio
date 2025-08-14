@@ -89,7 +89,44 @@ p {
     color: #555;
     font-size: 1em;
     line-height: 1.5;
+    text-align: justify;
 }
+
+.habilidades {
+    padding: 2em;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.habilidades h2{
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: #333;
+}
+
+.grid-habilidades {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.habilidade {
+    background-color: #f0f0f0;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.habilidade img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
 
 @media (max-width: 768px) {
     .sobre {
@@ -121,4 +158,9 @@ p {
     .barra-navegacao-itens li a {
         font-size: 0.8em;
     }
+
+    .grid-habilidades {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }
