@@ -123,12 +123,31 @@ html {
     justify-content: center;
     align-items: center;
     padding: 10px;
+
+    position: relative;
+    transition: all 0.3s ease;
 }
 
 .habilidade img {
     width: 60px;
     height: 60px;
     object-fit: contain;
+    border-radius: 15px;
+}
+
+.descricao-habilidade {
+        max-height: 0;
+        transition: all 0.3s ease;
+        text-align: center;
+        overflow: hidden;
+        font-size: 0.9;
+        padding: 0 5px;
+    }
+
+.habilidade:hover .descricao-habilidade {
+    max-height: 250px;
+    opacity: 1;
+    margin-top: 5px;
 }
 
 
