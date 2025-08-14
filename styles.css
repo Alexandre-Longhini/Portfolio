@@ -12,6 +12,10 @@ p {
     color: #70747A;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .barra-navegacao {
     width: 100%;
     height: 50px;
