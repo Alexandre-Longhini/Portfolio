@@ -269,7 +269,7 @@ html {
     background-color: #7A7A73;
     color: #fff;
     padding: 2em 1em;
-    margin-top: 50px;
+    margin: 0;
 }
 
 .div-rodape {
@@ -345,6 +345,17 @@ html {
 
     .grid-projetos {
         grid-template-columns: 1fr;
+    }
+
+    .div-rodape {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .rodape-links {
+        flex-direction: column;
+        gap: 10px;
     }
 
 }
