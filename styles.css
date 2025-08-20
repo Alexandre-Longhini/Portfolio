@@ -70,6 +70,7 @@ html {
     background-color: #DDDAD0;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
+    border:1px solid gray;
 }
 
 .sobre {
@@ -129,7 +130,7 @@ html {
     justify-content: center;
     align-items: center;
     padding: 10px;
-
+    border:1px solid gray;
     position: relative;
     transition: all 0.3s ease;
 }
@@ -188,6 +189,7 @@ html {
     text-decoration: none;
     color: inherit;
     transition: transform .25s ease;
+    border:1px solid gray;
 }
 
 .projeto:hover {
@@ -207,8 +209,15 @@ html {
     opacity: 1;
 }
 
+.div-contato {
+    border:1px solid gray;
+    background-color: #DDDAD0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
 .contato {
-    padding: 3em 1em;
+    padding: 1em 1em;
     max-width: 400px;
     margin: 0 auto;
     text-align: center;
@@ -218,6 +227,12 @@ html {
     font-size: 2em;
     margin-bottom: 1em;
     color: #333;
+}
+
+.form-contato {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 .form-contato label {
@@ -235,6 +250,7 @@ html {
 }
 
 .form-contato button {
+    margin-top: 5px;
     background-color: #333;
     color: white;
     padding: 0.8em;
