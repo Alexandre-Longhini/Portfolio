@@ -207,6 +207,48 @@ html {
     opacity: 1;
 }
 
+.contato {
+    padding: 3em 1em;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contato h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: #333;
+}
+
+.form-contato label {
+    color: #333;
+}
+
+.form-contato input,
+.form-contato textarea {
+    padding: 0.8em;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1em;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-contato button {
+    background-color: #333;
+    color: white;
+    padding: 0.8em;
+    font-size: 1em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-contato button:hover {
+    background-color: #555;
+}
+
 @media (max-width: 768px) {
     .sobre {
         flex-direction: column;
