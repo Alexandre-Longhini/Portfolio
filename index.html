@@ -11,8 +11,9 @@
 		<div class="barra-navegacao">
 			<nav>
 				<div class="logo">AALJ</div>
+				<button class="botao-menu">☰</button>
 				<ul class="barra-navegacao-itens">
-					<li><a href="#sobre">Sobre</a></li>
+					<li><a href="#div-sobre">Sobre</a></li>
 					<li><a href="#habilidades">Habilidades</a></li>
 					<li><a href="#projetos">Projetos</a></li>
 					<li><a href="#contato">Contato</a></li>
@@ -20,12 +21,12 @@
 			</nav>
 		</div>
 		<main class="main">
-			<div class="div-sobre">
+			<div class="div-sobre" id="div-sobre">
 				<section class="sobre" id="sobre">
 					<img src="img/ricefield.jpg" alt="Alexandre Longhini" class="foto-perfil">
 					<div class="descricao">
 						<h1 id>Alexandre Longhini</h1>
-		        		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+		        		<p>Bacharel em Ciência da Computação, com experiência em segurança da informação, análise de vulnerabilidades e forense digital. Atuou na BS Inteligência Forense e Segurança da Informação, contribuindo com projetos de adequação à LGPD, mapeamento de riscos (ISO 27001/27002) e análise de evidências digitais com FTK Imager e Cellebrite. Possui conhecimentos em Python, HTML, CSS e ferramentas como Nessus.</p>
 		    		</div>
 				</section>
 			</div>
@@ -127,7 +128,8 @@
 			<div class="div-contato">
 				<section class="contato" id="contato">
 					<h2>Contato</h2>
-					<form class="form-contato">
+					<form class="form-contato" action="https://formsubmit.co/longhini.vela@gmail.com" method="POST">
+						<input type="hidden" name="_captcha" value="false">
 						<label for="nome">Nome:</label>
 						<input type="text" id="nome" name="nome" required>
 						<label for="email">Email:</label>
@@ -155,4 +157,5 @@
 		</footer>
 	</div>
 </body>
+<script src="botao.js"></script>
 </html>
