@@ -209,6 +209,8 @@ html {
 
 .projeto:hover {
     transform: translateY(-4px);
+    background-color: #F8F3CE;
+    transition: .5s;
 }
 
 .projeto i {
